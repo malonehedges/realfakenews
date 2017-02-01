@@ -1,0 +1,6 @@
+{
+  "extends": "vue",
+  "plugins": [
+    "eslint-plugin-async-await"
+  ]
+}
