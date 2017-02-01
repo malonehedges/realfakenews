@@ -8,7 +8,7 @@
     "build": "webpack --config build/webpack.prod.js",
     "dev": "node build/server.js",
     "lint": "eslint client/* --ext .js --ext .vue",
-    "deploy": "yarn build && cd dist && surge --domain realfakenews.surge.sh"
+    "deploy": "yarn build && cd dist && surge --domain realfakenews.surge.sh --project './'"
   },
   "author": "Malone Hedges",
   "license": "MIT",
