@@ -6,7 +6,7 @@
       </div>
       <div class="newsitem-text-container">
         <a v-bind:href="article.url">
-          <div class="md-title newsitem-link">{{ article.title }}</div>
+          <span class="md-title newsitem-link">{{ article.title }}</span>
         </a>
         <!-- <div class="md-subhead"></div> -->
       </div>
